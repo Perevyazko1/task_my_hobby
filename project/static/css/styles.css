@@ -1,0 +1,52 @@
+/* Add a black background color to the top navigation */
+html {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img-1.jpg);
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #8a2923;
+  text-align: center;
+  padding: 5px 36px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #d83c1f;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #d83c1f;
+}
+
+.round {
+    border-radius: 250px; /* Радиус скругления */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    position: absolute;
+    top: 10%
+   }
+
+.text{
+    float: right;
+    color: #d28f58;
+    text-align: center;
+    padding: 5px 36px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+div.container4 {
+    height: 30em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -10%;
+    transform: translate(-50%, -50%) }

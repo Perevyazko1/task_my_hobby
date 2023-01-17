@@ -1,0 +1,7 @@
+[flake8]
+ignore = E501, W292
+exclude = .git, migrations
+
+
+application-import-names = Bulletin_board2
+import-order-style = google

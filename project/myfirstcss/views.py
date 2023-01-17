@@ -3,15 +3,14 @@ from django.shortcuts import render
 
 def home(request):
     """
-    Представление из админ-панели, для рассылки новостей пользователям
+    Представление, для главной страницы.
     """
-
     return render(request, 'home.html')
 
 
 def about_me(request):
     """
-    Представление для отображения всех откликов на объявления пользователя
+    Представление, страницы о себе.
     """
     response = ''
     return render(request, 'about_me.html', {
@@ -20,10 +19,8 @@ def about_me(request):
 
 def contacts(request):
     """
-    Представление для отображения всех откликов на объявления пользователя
+    Представление, для контактов.
     """
     response = ''
     return render(request, 'contacts.html', {
         'responses': response})
-
-

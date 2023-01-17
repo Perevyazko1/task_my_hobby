@@ -68,3 +68,13 @@ div.container4 p {
     margin-right: -10%;
     transform: translate(-50%, -50%)
     }
+
+.title{
+    color: #d28f58;
+    font-size: 25px;
+    font-family: COMIC SANS MS;
+    position: absolute;
+    top: 15%;
+    left: 7%;
+
+}

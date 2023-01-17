@@ -28,7 +28,12 @@ html {
     border-radius: 250px; /* Радиус скругления */
     box-shadow: 0 0 7px #666; /* Параметры тени */
     position: absolute;
-    top: 10%
+    top: 25%;
+    left: 7%;
+    float: left;
+    height: 370px;
+    width: 370px;
+
    }
 
 .text{
@@ -38,6 +43,7 @@ html {
     padding: 5px 36px;
     text-decoration: none;
     font-size: 25px;
+    font-family: COMIC SANS MS;
 }
 
 div.container4 {
@@ -47,6 +53,7 @@ div.container4 p {
     margin: 0;
     position: absolute;
     top: 60%;
-    left: 50%;
+    left: 60%;
     margin-right: -10%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%)
+    }

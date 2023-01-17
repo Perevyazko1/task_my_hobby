@@ -46,6 +46,17 @@ html {
     font-family: COMIC SANS MS;
 }
 
+.text a{
+    color: #d28f58;
+    font-size: 25px;
+    font-family: COMIC SANS MS;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+
+}
+
+
 div.container4 {
     height: 30em;
     position: relative }

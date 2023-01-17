@@ -19,7 +19,7 @@ def about_me(request):
 
 def contacts(request):
     """
-    Представление, для контактов.
+    Представление, страницы контактов.
     """
     response = ''
     return render(request, 'contacts.html', {
